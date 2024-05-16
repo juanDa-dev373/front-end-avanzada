@@ -23,10 +23,20 @@
     justify-content: center;
     align-items: center;
 }
+#container-buttons a{
+    color: black;
+}
 #container-buttons button{
     margin: 0 5% 0 5%;
     border: 1px solid black;
     width: 100px;
+}
+#container-buttons button:hover{
+    background-color: black;
+    color: white;
+}
+#container-buttons a:hover{
+    color: white;
 }
 #forgot{
     align-content: center;

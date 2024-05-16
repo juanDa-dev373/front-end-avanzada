@@ -8,6 +8,9 @@ import { ModalService } from '../../services/ExtServices/modal.service';
 import { Popover } from 'bootstrap';
 import * as bootstrap from 'bootstrap';
 
+// const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+// const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
 @Component({
   selector: 'app-slide-bar',
   standalone: true,

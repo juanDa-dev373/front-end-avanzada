@@ -1,0 +1,22 @@
+.text{
+    display: flex; /* Alinea los elementos verticalmente */
+    justify-content: flex-end; /* Coloca los elementos al final del contenedor */
+    align-items: center;
+}
+.search{
+    display: flex;
+}
+.filter{
+    width: 30%;
+}
+.name{
+    border: none;
+    background-color: white;
+    -webkit-text-fill-color: black;
+    font-family: 'Arial Narrow';
+    font-size: 20px;
+    text-align: center;
+}
+.custom-dialog {
+    border-radius: 10px;
+}
